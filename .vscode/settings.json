@@ -1,0 +1,33 @@
+{
+    // Python interpreter used for suggestions
+    "python.defaultInterpreterPath": "C:\\Users\\KOLDER\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "python.languageServer": "Pylance",
+
+    // Show suggestions automatically while typing
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "editor.quickSuggestionsDelay": 10,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.suggest.preview": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.parameterHints.enabled": true,
+
+    // Pylance: smarter completions
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "python.analysis.typeCheckingMode": "basic",
+
+    // Show hints for types and parameter names inside the code
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.callArgumentNames": "partial"
+}
